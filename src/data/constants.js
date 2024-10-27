@@ -102,8 +102,8 @@ export const projects = [
     description:
       "Rock, paper, scissors simple and iteractive game.",
     image:
-      "https://private-user-images.githubusercontent.com/123518018/380530897-c398cc39-3f21-43b7-b7f8-ded2f954e33a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzAwNjMxMDUsIm5iZiI6MTczMDA2MjgwNSwicGF0aCI6Ii8xMjM1MTgwMTgvMzgwNTMwODk3LWMzOThjYzM5LTNmMjEtNDNiNy1iN2Y4LWRlZDJmOTU0ZTMzYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAyN1QyMTAwMDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lNGNmY2JjZWRmMDZhYmIyNThkNWEyMTU1OWU0Yzg3OGE5ZmNjZWNmNTc0OWYyMThhNTE3ODA0NmM4MjA0MjU4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.wfo2cVwXWyUb_52aANnn6LiYhBwKcPzWyj2CsauMNOA",
-    tags: [
+      "https://i.ibb.co/Bs4T4nZ/image-2.png",
+        tags: [
       "Games",
       "JS",
       "HTML",
@@ -120,7 +120,7 @@ export const projects = [
     description:
       "Clothing website project.",
       image:
-        "https://private-user-images.githubusercontent.com/123518018/380531463-2511a285-bfcb-4bc1-8a35-f7155cf6b1a0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzAwNjM3NDMsIm5iZiI6MTczMDA2MzQ0MywicGF0aCI6Ii8xMjM1MTgwMTgvMzgwNTMxNDYzLTI1MTFhMjg1LWJmY2ItNGJjMS04YTM1LWY3MTU1Y2Y2YjFhMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMDI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTAyN1QyMTEwNDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hZWE2YTBkZjc1ZDBmYTI0OTVjMDlkNzFmZTA0MTllNjE4MTcxYjRkYjdlM2U1N2M5YjhmY2M4YjYwN2JlYTI1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.4qIoCnDRWfJXPditBGGqSa_CWTkITUMudOug5CXtBYc",
+        "https://i.ibb.co/F6HB19K/image-3.png",
         tags: [
       "Website",
       "HTML",
