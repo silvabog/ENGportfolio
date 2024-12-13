@@ -8,14 +8,14 @@ import HeroSection from "./components/HeroSection";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Projects1 from "./components/Projects1";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
-import Chatbot from "./components/Chatbot/chatbot.js"
-//
+
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;
@@ -37,16 +37,17 @@ function App() {
         <Navbar />
         <Body>
       
-      <Chatbot />
+      
 
           <HeroSection />
           <Wrapper>
-            <Skills />
-            <Experience />
+          
+       
+            <Projects1 openModal={openModal} setOpenModal={setOpenModal} />
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
-            <Education />
+         
             <Contact />
           </Wrapper>
           <Footer />

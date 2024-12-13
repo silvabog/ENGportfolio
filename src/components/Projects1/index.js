@@ -2,17 +2,17 @@ import React from 'react'
 import { useState } from 'react'
 import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton, Divider } from './ProjectsStyle'
 import ProjectCard from '../Cards/ProjectCards'
-import { projects } from '../../data/constants'
+import { projects1 } from '../../data/constants'
 
 
-const Projects = ({openModal,setOpenModal}) => {
+const Projects1 = ({openModal,setOpenModal}) => {
   const [toggle, setToggle] = useState('all');
   return (
-    <Container id="projects">
+    <Container id="projects1">
       <Wrapper>
-        <Title>Instructions</Title>
+        <Title>Correspondance</Title>
         <Desc>
-          These are my instruction samples
+          Correspondance samples
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
@@ -22,11 +22,11 @@ const Projects = ({openModal,setOpenModal}) => {
           }
         </ToggleButtonGroup>
         <CardContainer>
-          {toggle === 'all' && projects
+          {toggle === 'all' && projects1
             .map((project) => (
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}
-          {projects
+          {projects1
             .filter((item) => item.category == toggle)
             .map((project) => (
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
@@ -37,4 +37,4 @@ const Projects = ({openModal,setOpenModal}) => {
   )
 }
 
-export default Projects
+export default Projects1

@@ -9,6 +9,7 @@ export const Bio = {
     "https://drive.google.com/file/d/1xawOfXxOuByozLpSX_FtLEFj70MGWmwm/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/silvabog/",
   insta: "https://www.instagram.com/gabrielsb13/",
+  cover: "https://drive.google.com/file/d/1sWD1cx-eJM_xQCrqqbfAdGrHvzx4bsHt/view"
 };
 
 export const skills = [
@@ -98,37 +99,71 @@ export const education = [
 export const projects = [
   {
     id: 9,
-    title: "Rock, paper, scissors",
+    title: "Instructions Set",
     description:
-      "Rock, paper, scissors simple and iteractive game.",
+      "Intructions of Tic-tac-toe game",
     image:
-      "https://i.ibb.co/Bs4T4nZ/image-2.png",
+      "https://www.wikihow.com/images/thumb/f/f6/Play-Tic-Tac-Toe-Step-5.jpg/aid84863-v4-728px-Play-Tic-Tac-Toe-Step-5.jpg",
         tags: [
       "Games",
-      "JS",
-      "HTML",
-      "CSS",
+      "Tic-tac-toe",
+      "Instructions"
     ],
     category: "HTML",
     github: "https://github.com/silvabog/game",
-    webapp: "https://obi2.kean.edu/~silvabog@kean.edu/games/game2.html"
+    webapp: "https://drive.google.com/file/d/1Cgk6SlN12qkKZHaRppgO-Ci8TVjrs8SY/view?usp=sharing"
   },
 
   {
     id: 0,
-    title: "Clothing Website",
+    title: "Tutorial Video",
     description:
-      "Clothing website project.",
+      "Tutorial video of Tic-tac-toe instructions",
       image:
-        "https://i.ibb.co/F6HB19K/image-3.png",
+        "https://i0.wp.com/junilearning.com/wp-content/uploads/2023/12/java-tic-tac-toe-tutorial-beginner.png?fit=600%2C400&ssl=1",
         tags: [
-      "Website",
-      "HTML",
-      "CSS",
+      "Games",
+      "Tutorial",
+      "Video",
     ],
     category: "HTML",
     github: "https://github.com/silvabog/Webpage",
     webapp: "https://obi2.kean.edu/~silvabog@kean.edu/WEBSITE/Index.html"
+  },
+ 
+];
+
+export const projects1 = [
+  {
+    id: 9,
+    title: "E-mail",
+    description:
+      "Problem/solution email",
+    image:
+      "https://landingstorageaccnmbl.blob.core.windows.net/wplandingnmbl/2019/03/VRSN_CompanyBrandedEmail_BlogImage8_201712-670x446-2-1.png",
+        tags: [
+      "Email",
+      "PDF"
+    ],
+    category: "HTML",
+    github: "https://github.com/silvabog/game",
+    webapp: "https://drive.google.com/file/d/1LcEo3hZWnF0h3Xin90Wlw2okmG1B7cVP/view?usp=sharing"
+  },
+
+  {
+    id: 0,
+    title: "Infographic",
+    description:
+      "Infographic assignment",
+      image:
+        "https://designshack.net/wp-content/uploads/business-timeline-process-infographic-for-illustrator-541-1.jpg",
+        tags: [
+      "Infographic",
+      "PDF"
+    ],
+    category: "HTML",
+    github: "https://github.com/silvabog/Webpage",
+    webapp: "https://drive.google.com/file/d/1zXLApmdtQvLmKzmEquHXZEHwwmACF0gd/view?usp=sharing"
   },
  
 ];

@@ -171,11 +171,9 @@ export const ResumeButton = styled.a`
     -moz-appearance: button;
     appearance: button;
     text-decoration: none;
-    width: 95%;
-    max-width: 300px;
     text-align: center;
-    padding: 16px 0;
-    color:${({ theme }) => theme.white};
+    padding: 16px 32px; /* Increased horizontal padding for space around the text */
+    color: ${({ theme }) => theme.white};
     border-radius: 20px;
     cursor: pointer;
     font-size: 20px;
@@ -187,17 +185,16 @@ export const ResumeButton = styled.a`
     background: #2b6fa6;
     box-shadow:  20px 20px 60px #1F2634,
     -20px -20px 60px #1F2634;
+    margin-right: 20px; /* Adds space between buttons */
     &:hover {
         transform: scale(1.05);
-    transition: all 0.4s ease-in-out;
-    box-shadow:  20px 20px 60px #1F2634,
-    filter: brightness(1);
-    }    
-    
-    
-    @media (max-width: 640px) {
-        padding: 12px 0;
-        font-size: 18px;
-    } 
+        transition: all 0.4s ease-in-out;
+        box-shadow:  20px 20px 60px #1F2634,
+        filter: brightness(1);
+    }
 
+    @media (max-width: 640px) {
+        padding: 12px 24px; /* Adjust padding for smaller screens */
+        font-size: 18px;
+    }
 `;
