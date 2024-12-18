@@ -128,7 +128,7 @@ export const projects = [
     ],
     category: "HTML",
     github: "https://github.com/silvabog/Webpage",
-    webapp: "https://obi2.kean.edu/~silvabog@kean.edu/WEBSITE/Index.html"
+    webapp: "https://youtu.be/Rc4rNCEPS_0?feature=shared"
   },
  
 ];
